@@ -1,0 +1,54 @@
+
+
+.container {
+    width: 700px !important;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: slategray;
+    margin-top: 100px;
+}
+
+.container input, select {
+    width: 50%;
+}
+
+#name {
+    width: 100% !important;
+}
+
+h1 {
+    color: yellow;
+}
+
+ul {
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    height: 400px;
+    background-color: slategray;
+    color: white;
+    list-style: none;
+    padding: 30px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    width: auto !important;
+}
+
+.form-check-label {
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.radiobutton {
+    width: auto !important;
+}
+
+.radiobuttonLabel {
+    margin-right: 20px !important;
+    margin-bottom: 20px !important; 
+}

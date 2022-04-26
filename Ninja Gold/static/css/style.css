@@ -1,0 +1,42 @@
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+h3 {
+    padding-left: 3%;
+}
+
+.top_container {
+    display: inline-block;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.main_boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+
+button {
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+
+.activities {
+    overflow: scroll;
+    width: 95%;
+    margin: 0 auto;
+    height: 200px;
+    border: 1px solid black;
+    padding-top: 25px;
+}
