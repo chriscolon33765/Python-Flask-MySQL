@@ -1,0 +1,67 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.cardCorrect {
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.card h2 {
+    padding: 75px;
+}
+
+.cardCorrect h2 {
+    padding: 40px;
+}
+
+.main_info {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: darkslategray;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+p {
+    color: orange;
+    padding: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: orange;
+    font-weight: bold;
+} 
+
+button:hover {
+    background-color: rgb(247, 244, 109);
+} 
