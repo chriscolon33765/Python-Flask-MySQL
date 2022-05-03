@@ -1,0 +1,3 @@
+SELECT * FROM dojosandninjas.dojos;
+
+INSERT INTO dojosandninjas.dojos (name) VALUES ("Chicago"), ("Seattle"), ("Online")
