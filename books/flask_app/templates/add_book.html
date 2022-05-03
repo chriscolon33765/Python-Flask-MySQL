@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: space-evenly;">
+        <div class="left">
+            <h1>New Book</h1>
+            <form action="/create/book" method="post">
+                <div>
+                    <label for="title">Title:</label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div>
+                    <label for="num_of_pages">Number of Pages:</label>
+                    <input type="text" name="num_of_pages" id="num_of_pages">
+                </div>
+                <input type="submit" value="Create" name="create" id="create">
+            </form>
+        </div>
+        <div class="right">
+            <h1>All Books</h1>
+                <div class="list">
+                    {% for b in all_books %}
+                        <p>
+                            <a href="/add_book/{{b.id}}">{{ b.title }}</a>
+                        </p>
+                    {% endfor %}
+                </div>
+        </form>
+        </div>
+    </div>
+    <a href="/">Home</a>
+</body>
+</html>
