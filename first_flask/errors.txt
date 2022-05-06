@@ -1,0 +1,21 @@
+Change password:
+
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+
+
+Removed Self from MySQLConnection class:
+
+TypeError: MySQLConnection.__init__() takes 1 positional argument but 2 were given
+
+
+
+removed query from query_db:
+
+TypeError: 'bool' object is not iterable
+
+
+
+Removed the word cursor:
+
+This site can't be reached.
